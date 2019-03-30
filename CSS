@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html, body{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background: url(https://artisanalbrewworks.com/wp-content/uploads/2016/03/beer-background.jpg);
+ 
+}
+
+#title{
+  padding: 10px;
+  font-size: 50px
+}
+#description{
+  font-size: 20px;
+}
+#form-outer {
+  background-color: #f2f2f2;
+  margin: auto;
+  margin-bottom: 70px;
+  border-radius: 20px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 10px;
+  box-shadow: 5px 5px 20px #888888;
+}
+
+#dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+
+.labels{
+  display: inline-block;
+  text-align: right; 
+  width: 30%;
+  padding: 5px;
+  vertical-align: center;
+  margin-top: 10px; 
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+.radio  {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+.userRatings,
+input[type="checkedbox"] {
+  float: left;
+  margin-right: 7px;
+}
+
+#submit {
+  background-color: #ff9966;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+  heigh: 50px;
+  width: 150px;
+  margin: 10px;
+  border: 0px solid;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px){
+  .input-field{
+    max-width: 80%;
+  }
+  .labels{
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab{
+    width: 100%; 
+  }
+  select{
+    width: 100%;
+  }
+  textarea{
+    max-width: 80%;
+}
+}
